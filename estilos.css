@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.fondo{
+    width: 300px;
+    height: 600px;
+    background-image: url(Fondo.png);
+    margin: auto;
+}
+
+img{
+    width: 250px;
+    height: auto;
+    margin-left: 30px;
+    animation-name: tamaño;
+    animation-duration: 2s;
+}
+
+
+@keyframes tamaño {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+
+    }
+}
